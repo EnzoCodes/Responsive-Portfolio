@@ -289,19 +289,37 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
     /* general */
+    #main-container {
+        width: 90%
+    }
 
+    .main-section {
+        width: 100%;
+        text-align: center;
+    }
 
-    /* header */
+    .auth-image {
+        width: 60%;
+    }
 
-    /* footer */
+    h1, label {
+        text-align: left;
+    }
+
 
     /* sidebar */
+    .sidebar {
+        max-width: none;
+    }
 
     /* contact page */
+
+    #contact-form {
+        text-align: left;
+    }
 
     /* portfolio page*/
 
-    /* contact page */
 
 
 }
@@ -309,7 +327,8 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
 
     /* general */
-    header = position: static;
+    #masthead{ position: static;
+    }
 
     /* header */
 
