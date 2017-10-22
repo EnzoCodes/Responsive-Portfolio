@@ -237,3 +237,106 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media screen and (max-width: 980px) {
+    /* general */
+    #main-container {
+        width: 90%
+    }
+
+    .main-section {
+        width: 60%;
+        text-align: center;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .auth-image {
+        width: 100%;
+    }
+
+
+    /* header */
+    #masthead {
+        width: 100%;
+    }
+    #logo {
+        margin-left: 40px;
+    }
+    nav {
+        margin-right: 40px;
+    }
+
+    /* footer */
+
+    /* sidebar */
+
+    .sidebar {
+
+    }
+
+    /* contact page */
+
+    /* portfolio page*/
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /* general */
+
+
+    /* header */
+
+    /* footer */
+
+    /* sidebar */
+
+    /* contact page */
+
+    /* portfolio page*/
+
+    /* contact page */
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+    /* general */
+    header = position: static;
+
+    /* header */
+
+    /* footer */
+
+    /* sidebar */
+
+    /* contact page */
+
+    /* portfolio page*/
+
+    /* contact page */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* These rules take effect when the browser's width is 768px or less
+    display:none removes an element completely */
