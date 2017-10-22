@@ -327,18 +327,74 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
 
     /* general */
-    #masthead{ position: static;
+    #logo {
+        width: 100%;
+        margin-left: 0;
     }
+
+    #masthead { position: static;
+    }
+
+    #main-container {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .main-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        text-align: left;
+        width: 105%;
+    }
+
+    .auth-image {
+        width: 100%;
+    }
+
+    .work h3 {
+        padding: 0px 15px;
+    }
+
 
     /* header */
 
+    nav {
+        text-align: center;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    nav a {
+        padding-right: 25px;
+        font-size: 1.1em;
+        margin-top: none;
+    }
+
+    nav a:hover {
+        background-color: darkcyan;
+        color: #fff;
+    }
+
     /* footer */
+
+    footer {
+        padding: 0px;
+    }
 
     /* sidebar */
 
     /* contact page */
 
     /* portfolio page*/
+
+    .work {
+        text-align: center;
+        margin: 0 auto !important;
+        width: 100%;
+    }
 
     /* contact page */
 
