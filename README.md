@@ -1,1 +1,0 @@
-# mediaQueriesHW2
